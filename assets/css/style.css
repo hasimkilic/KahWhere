@@ -43,7 +43,7 @@ h6,
 }
 
 .text-primary {
-  color: #113946 !important; /* #2d71a1 */
+  color: #6F4E37 !important; /* #2d71a1 */
 }
 
 .border-top {
@@ -71,7 +71,7 @@ section {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #113946);
+  background: linear-gradient(-45deg, #A67B5B, #6F4E37);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -86,7 +86,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #113946;
+  background: #6F4E37;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -100,7 +100,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #113946;
+  background: #6F4E37;
   color: #fff;
 }
 
@@ -123,12 +123,12 @@ section {
 
 .btn.btn-outline-white:hover {
   background: #fff;
-  color: #113946;
+  color: #6F4E37;
 }
 
 .btn.btn-primary {
-  background: #113946;
-  background: linear-gradient(-45deg, #1391a5, #113946);
+  background: #6F4E37;
+  background: linear-gradient(-45deg, #6F4E37, #6F4E37);
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
@@ -148,7 +148,7 @@ section {
 }
 
 .feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(-45deg, #113946, #2d71a2);
+  background: linear-gradient(-45deg, #6F4E37, #2d71a2);
 }
 
 .feature-1 .wrap-icon i {
@@ -166,27 +166,20 @@ section {
 }
 
 /* Step */
-.step {
-  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
-  background: #fff;
+.step { 
+  border: 1px solid #3333330b;
   padding: 40px;
   border-radius: 16px;
+  background: transparent;
 }
-
-.step .number {
-  background: linear-gradient(-45deg, #1391a5, #113946);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-  letter-spacing: 0.2rem;
-  margin-bottom: 10px;
-  display: block;
+.step .img{
+  width: 250px;
+  height: 140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.step p:last-child {
-  margin-bottom: 0px;
-}
-
 /* Review */
 .review h3 {
   font-size: 22px;
@@ -222,17 +215,17 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #113946;
+  border: 1px solid #6F4E37;
 }
 
 .testimonials-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #113946;
+  background-color: #6F4E37;
 }
 
 /* Pricing */
 .pricing {
   padding: 50px;
-  background: linear-gradient(-45deg, #1391a5, #113946);
+  background: linear-gradient(-45deg, #6F4E37, #6F4E37);
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
@@ -243,7 +236,7 @@ section {
 }
 
 .pricing h3 {
-  color: #113946;
+  color: #6F4E37;
 }
 
 .pricing .price-cta {
@@ -286,14 +279,14 @@ section {
 }
 
 .pricing .btn-white:hover {
-  color: #113946;
+  color: #6F4E37;
 }
 
 .pricing.popular {
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   color: #000000;
-  background: linear-gradient(-45deg, #1391a5, #113946);
+  background: linear-gradient(-45deg, #6F4E37, #6F4E37);
   color: #fff;
   box-shadow: none;
 }
@@ -308,12 +301,12 @@ section {
 }
 
 .pricing.popular .btn-white {
-  border: 2px solid #113946;
+  border: 2px solid #6F4E37;
 }
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(to right, rgb(17, 57, 70) 0%, rgb(61, 179, 197) 100%);
+  background: linear-gradient(to right, #6F4E37 0%, #A67B5B 100%);
   color: #fff;
 }
 
@@ -351,7 +344,7 @@ section {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border: 1px solid #113946;
+  border: 1px solid #6F4E37;
 }
 
 .php-email-form .validate {
@@ -442,11 +435,11 @@ section {
 
 .post-entry .post-text h3 a:hover {
   text-decoration: none;
-  color: #113946;
+  color: #6F4E37;
 }
 
 .post-entry .post-text .readmore {
-  color: #113946;
+  color: #6F4E37;
 }
 
 .sidebar-box {
@@ -600,7 +593,7 @@ section {
 }
 
 #header.header-scrolled {
-  background: rgba(39, 70, 133, 0.8);
+  background: rgba(111, 78, 55,0.6);
   height: 100px;
 }
 #header.header-scrolled .logo img{
@@ -712,7 +705,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #113946;
+  color: #6F4E37;
 }
 
 .navbar .dropdown:hover>ul {
@@ -808,7 +801,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #113946;
+  color: #6F4E37;
 }
 
 .navbar-mobile .dropdown ul {
@@ -838,7 +831,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #113946;
+  color: #6F4E37;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -849,7 +842,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(17, 57, 70, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(to right, rgba(111, 78, 55,0.8) 0%, rgba(166, 123, 91,0.8) 100%), url(../img/hero-bg.jpg);
   position: relative;
 }
 
@@ -1030,7 +1023,7 @@ section {
 
 .social a:hover {
   color: #fff;
-  background: #113946;
+  background: #6F4E37;
 }
 
 .social a i {
